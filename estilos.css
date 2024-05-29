@@ -38,12 +38,16 @@ a:hover{
   margin-top: 20px;
   
 }
-
+.letras{
+    width: 300px;
+    height: 200px;
+}
 .informacion{
     color: #003285;
     margin-left: 50%;
     margin-top: -3%;
 }
+
 h1:hover{
     color: black;
 }
@@ -187,20 +191,21 @@ aside{
     color:black;
 }
 .pie{
-        background-color:#0c0c0c;
-        padding: 10px;
-        width: 99%;
-        bottom: 0;
-        margin-top: 2%;
-        height: 150px;
-        color: white;
+    background-color:black;
+    padding: 10px;
+    color: white;
+    width: 99%;
+    bottom: 0;
+    margin-top: -0%;
+    height: 150px;
 }
 .imagen-footer{
-    margin-left: 40%;
+    margin-left: 45%;
     margin-top: -115px;
+    border-radius: 50%;
 }
 .parrafo-footer{
     color:white;
-    margin-left: 60%;
+    margin-left: 75%;
     margin-top: -120px;
 }
