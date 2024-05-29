@@ -25,43 +25,42 @@ a{
 li{
     list-style-type: none;
     display: inline-block;
-    padding: 45px;
-    margin-left: 50px;
+    padding: 55px;
+    margin-left: -85px;
 }
 a:hover{
     color: #003285;
 }
-.imagen{
-  margin-left: 70px;
-  width: 200px;
-  height: 100px;
-  margin-top: 20px;
-  
+.container-img{
+    width: 10px;
+    height: 10px;
 }
 .letras{
-    width: 300px;
-    height: 200px;
+    width: 200px;
+    height: 100px;
 }
 .informacion{
     color: #003285;
     margin-left: 50%;
-    margin-top: -3%;
+    margin-top: 8%;
 }
 
 h1:hover{
     color: black;
 }
 aside{
-    width: 100%;
     color: #2a63be;
-    margin-top: 20%;
+    margin-top: 10%;
+}
+.descripcion{
+    font-size: smaller;
 }
 .enlaces{
     border-radius: 5px;
     cursor: pointer;
-    margin-left: 3%;
-  
+    font-size: small;
 }
+
 .francia{
         background-color:#2a63be;
         color:rgb(255, 255, 255);
@@ -197,15 +196,15 @@ aside{
     width: 99%;
     bottom: 0;
     margin-top: -0%;
-    height: 150px;
+    height: 133px;
 }
 .imagen-footer{
-    margin-left: 45%;
+    margin-left: 54%;
     margin-top: -115px;
     border-radius: 50%;
 }
 .parrafo-footer{
     color:white;
     margin-left: 75%;
-    margin-top: -120px;
+    margin-top: -130px;
 }
