@@ -1,0 +1,66 @@
+body{
+    background-image: url(italia.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 630px;
+    background-attachment: fixed;
+    background-position: center;
+}
+.container{
+background-color: rgb(254, 255, 255);
+margin-left: 10%;
+margin-right: 10%;
+border: solid red;
+text-align: center;
+}
+.container h1{
+    color: green;
+}
+.section{
+    border: solid green;
+    background-color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+}
+.section img{
+    border: solid red;
+}
+.section h1{
+    background-color: green;
+}
+.sections{
+    border: solid rgb(152, 152, 152);
+    background-color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+}
+.sections img{
+    border: solid rgb(38, 255, 0);
+}
+.sections h1{
+    background-color: rgb(0, 255, 0);
+}
+
+.section3{
+    border: solid rgb(255, 0, 0);
+    background-color: rgb(255, 255, 255);
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+}
+.section3 img{
+    border: solid rgb(141, 141, 141);
+}
+.section3 h1{
+    background-color: rgb(0, 255, 0);
+}
+footer {
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 0, 0);
+    border: solid green;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: solid red;
+    text-align: center;
+}
