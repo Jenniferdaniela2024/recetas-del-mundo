@@ -1,0 +1,31 @@
+body{
+    font-family: sans-serif;
+    margin: 0; /*Hace que no halla espacio en ninguna de las esquinas*/
+}
+header{
+    list-style: none;
+    align-items: center;
+    display: flex;
+   
+}
+.logo{
+    display: flex;
+}
+.logo img{
+    height: 30%;
+    width:  40%;
+}
+a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 5px;
+}
+li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 45px;
+    margin-left: 50px;
+}
+a:hover{
+    color: #003285;
+}
