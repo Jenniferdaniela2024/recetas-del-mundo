@@ -1,6 +1,7 @@
 body{
     font-family: sans-serif;
     margin: 0; /*Hace que no halla espacio en ninguna de las esquinas*/
+   
 }
 header{
     list-style: none;
@@ -8,6 +9,7 @@ header{
     display: flex;
    
 }
+
 .logo{
     display: flex;
 }
@@ -23,9 +25,185 @@ a{
 li{
     list-style-type: none;
     display: inline-block;
-    padding: 45px;
-    margin-left: 50px;
+    padding: 55px;
+    margin-left: -85px;
 }
 a:hover{
     color: #003285;
+}
+.container-img{
+    width: 10px;
+    height: 10px;
+}
+.letras{
+    width: 200px;
+    height: 100px;
+}
+.informacion{
+    color: #003285;
+    margin-left: 50%;
+    margin-top: 8%;
+}
+
+h1:hover{
+    color: black;
+}
+aside{
+    color: #2a63be;
+    margin-top: 10%;
+}
+.descripcion{
+    font-size: smaller;
+}
+.enlaces{
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: small;
+}
+
+.francia{
+        background-color:#2a63be;
+        color:rgb(255, 255, 255);
+        width: 10%; 
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+}
+.españa{
+    background-color:#2a63be;
+    color:rgb(255, 255, 255);
+    width: 10%; 
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.italia{
+    background-color:#2a63be;
+    color:rgb(255, 255, 255);
+    width: 10%; 
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.portugal{
+    background-color:#2a63be;
+    color:rgb(255, 255, 255);
+    width: 10%; 
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.argentina{
+    background-color:#2a63be;
+    color:rgb(255, 255, 255);
+    width: 10%; 
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.china{
+    background-color:#2a63be;
+    color:rgb(255, 255, 255);
+    width: 10%; 
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.colombia{
+    background-color:#2a63be;
+    color:rgb(255, 255, 255);
+    width: 10%; 
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.mexico{
+    background-color:#2a63be;
+    color:rgb(255, 255, 255);
+    width: 10%; 
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.portugal{
+    background-color:#2a63be;
+    color:rgb(255, 255, 255);
+    width: 10%; 
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.japon{
+    background-color:#2a63be;
+    color:rgb(255, 255, 255);
+    width: 10%; 
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.corea{
+    background-color:#2a63be;
+    color:rgb(255, 255, 255);
+    width: 10%; 
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.francia:hover{
+    background-color:#b71515;
+    color:black;
+}
+.españa:hover{
+    background-color:#0d0d0d;
+    color: white;
+}
+.italia:hover{
+    background-color:#187d0f;
+    color:black;
+}
+.portugal:hover{
+    background-color:#bcc219;
+    color:rgb(250, 246, 246);
+}
+.argentina:hover{
+    background-color:#6c93f6;
+    color:rgb(252, 249, 249);
+}
+.china:hover{
+    background-color:#b71515;
+    color:black;
+}
+.mexico:hover{
+    background-color:#187d0f;
+    color:black;
+}
+.japon:hover{
+    background-color:#b71515;
+    color:white;
+}
+.corea:hover{
+    background-color:#230dcd;
+    color:black;
+}
+.colombia:hover{
+    background-color:#e4f54f;
+    color:black;
+}
+.pie{
+    background-color:black;
+    padding: 10px;
+    color: white;
+    width: 99%;
+
+    height: 133px;
+}
+.imagen-footer{
+    margin-left: 54%;
+    margin-top: -105px;
+    border-radius: 50%;
+}
+.parrafo-footer{
+    color:white;
+    margin-left: 75%;
+    margin-top: -130px;
 }
