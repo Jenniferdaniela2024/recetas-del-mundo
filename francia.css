@@ -24,6 +24,10 @@ body {
 .intro h1 {
     text-align: center;
 }
+.link{
+    text-decoration: none;
+    color: white;
+}
 .demo {
     width: 100%;
     height: auto;
