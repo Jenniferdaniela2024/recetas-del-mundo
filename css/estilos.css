@@ -60,88 +60,153 @@ aside{
     cursor: pointer;
     font-size: small;
 }
+.botones{
+    display: inline-block;
+    margin-left: 60px;
+    
+}
 
 .francia{
-        background-color:#2a63be;
-        color:rgb(255, 255, 255);
-        width: 10%; 
-        padding: 10px 20px;
-        border-radius: 5px;
-        cursor: pointer;
+    border-style:groove;
+    width: 300px;
+    float: left;
+    margin-bottom: 10px;
 }
 .españa{
-    background-color:#2a63be;
-    color:rgb(255, 255, 255);
-    width: 10%; 
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
+    border-style:groove;
+    width: 300px;
+    float: right;
+    margin-top: -35px;
+    margin-bottom: 10px;
+   
 }
 .italia{
-    background-color:#2a63be;
-    color:rgb(255, 255, 255);
-    width: 10%; 
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
+    border-style:groove;
+    width: 300px;
+    float: left;
+    margin-bottom: 10px;
 }
-.portugal{
-    background-color:#2a63be;
-    color:rgb(255, 255, 255);
-    width: 10%; 
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
+.portugal1{
+    border-style:groove;
+    width: 300px;
+    float: right;
+    margin-bottom: 10px;
 }
 .argentina{
-    background-color:#2a63be;
-    color:rgb(255, 255, 255);
-    width: 10%; 
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
+    border-style:groove;
+    width: 300px;
+    float: left;
+    margin-bottom: 10px;
 }
 .china{
-    background-color:#2a63be;
-    color:rgb(255, 255, 255);
-    width: 10%; 
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
+    border-style:groove;
+    width: 300px;
+    float: right;
+    margin-bottom: 10px;
 }
 .colombia{
-    background-color:#2a63be;
-    color:rgb(255, 255, 255);
-    width: 10%; 
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
+    border-style:groove;
+    width: 300px;
+    float: left;
+    margin-bottom: 10px;
 }
 .mexico{
-    background-color:#2a63be;
-    color:rgb(255, 255, 255);
-    width: 10%; 
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-.portugal{
-    background-color:#2a63be;
-    color:rgb(255, 255, 255);
-    width: 10%; 
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
+    border-style:groove;
+    width: 300px;
+    float: right;
+    margin-bottom: 10px;
 }
 .japon{
-    background-color:#2a63be;
-    color:rgb(255, 255, 255);
-    width: 10%; 
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
+    border-style:groove;
+    width: 300px;
+    float: left;
+    margin-bottom: 10px;
 }
 .corea{
+    border-style:groove;
+    width: 300px;
+    float: right;
+    margin-bottom: 10px;
+}
+.españa-nota{
+    background-color:#2a63be;
+    color:rgb(255, 255, 255);
+    width: 10%; 
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10%;
+}
+.francia-nota{
+    background-color:#2a63be;
+    color:rgb(255, 255, 255);
+    width: 10%; 
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10%;
+}
+.texto{
+    color: #0d0d0d;
+    margin-left: 10%;
+}
+
+.italia-nota{
+    background-color:#2a63be;
+    color:rgb(255, 255, 255);
+    width: 10%; 
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10%;
+}
+ .portugal-nota{
+    background-color:#2a63be;
+    color:rgb(255, 255, 255);
+    width: 10%; 
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10%;
+ }
+
+.argentina-nota{
+    background-color:#2a63be;
+    color:rgb(255, 255, 255);
+    width: 10%; 
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10%;
+}
+.china-nota{
+    background-color:#2a63be;
+    color:rgb(255, 255, 255);
+    width: 10%; 
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10%;
+}
+.colombia-nota{
+    background-color:#2a63be;
+    color:rgb(255, 255, 255);
+    width: 10%; 
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10%;
+}
+.mexico-nota{
+    background-color:#2a63be;
+    color:rgb(255, 255, 255);
+    width: 10%; 
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.portugal-nota{
     background-color:#2a63be;
     color:rgb(255, 255, 255);
     width: 10%; 
@@ -149,43 +214,62 @@ aside{
     border-radius: 5px;
     cursor: pointer;
 }
-.francia:hover{
-    background-color:#b71515;
-    color:black;
+.japon-nota{
+    background-color:#2a63be;
+    color:rgb(255, 255, 255);
+    width: 10%; 
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10%;
 }
-.españa:hover{
-    background-color:#0d0d0d;
-    color: white;
+.corea-nota{
+    background-color:#2a63be;
+    color:rgb(255, 255, 255);
+    width: 10%; 
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10%;
 }
-.italia:hover{
-    background-color:#187d0f;
-    color:black;
-}
-.portugal:hover{
-    background-color:#bcc219;
-    color:rgb(250, 246, 246);
-}
-.argentina:hover{
-    background-color:#6c93f6;
-    color:rgb(252, 249, 249);
-}
-.china:hover{
-    background-color:#b71515;
-    color:black;
-}
-.mexico:hover{
-    background-color:#187d0f;
-    color:black;
-}
-.japon:hover{
+
+.francia-nota:hover{
     background-color:#b71515;
     color:white;
 }
-.corea:hover{
+.españa-nota:hover{
+    background-color:#0d0d0d;
+    color: white;
+}
+.italia-nota:hover{
+    background-color:#187d0f;
+    color:black;
+}
+.portugal-nota:hover{
+    background-color:#bcc219;
+    color:rgb(250, 246, 246);
+}
+.argentina-nota:hover{
+    background-color:#6c93f6;
+    color:rgb(252, 249, 249);
+}
+.china-nota:hover{
+    background-color:#b71515;
+    color:black;
+}
+.mexico-nota:hover{
+    background-color:#187d0f;
+    color:black;
+}
+.japon-nota:hover{
+    background-color:#b71515;
+    color:white;
+}
+.corea-nota:hover{
     background-color:#230dcd;
     color:black;
 }
-.colombia:hover{
+.colombia.nota:hover{
     background-color:#e4f54f;
     color:black;
 }
@@ -207,3 +291,16 @@ aside{
     margin-left: 75%;
     margin-top: -130px;
 }
+
+
+     
+    
+    
+
+   
+   
+   
+
+
+    
+
